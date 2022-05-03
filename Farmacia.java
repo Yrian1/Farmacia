@@ -12,6 +12,9 @@ public class Farmacia {
 		 this.totalMed.add(med);
 		 return true;
 	 }
+	/*
+	efetuar compra "setQtdatual(valor)" nesse caso o valor precisa ser negativo onde a compra sera no quantidade do modulo deste valor
+	*/
 	public static void main(String[] args) {
 		Farmacia farma= new Farmacia();
 		MedComum p1 = new MedComum(1, 2.60, 40);// inicia os medicamentos comuns adicionando um medicamento,seu preço e a quantidade dele
