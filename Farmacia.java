@@ -5,7 +5,7 @@ import java.util.ArrayList;
 public class Farmacia {
 	
 	 ArrayList<Medicamentos> totalMed = new ArrayList<>();
-	 public boolean addMed(Medicamentos med){	
+	 public boolean addMed(Medicamentos med){//metodo para 'cadastrar' medicamentos adicionando ao array impedindo que tenha mais de 100 medicamentos cadastrados
 		 if(totalMed.size()>100) {
 			 return false;
 		 }
