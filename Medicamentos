@@ -1,1 +1,57 @@
+package farmacia;
 
+public abstract class Medicamentos {
+	private int cod;
+	private double preco;
+	private int qtdInicial;
+	private int qtdAtual;
+	private boolean devolucao;
+	public Medicamentos(int cod, double preco, int qtdInicial, boolean devolucao) {
+		super();
+		this.cod = cod;
+		this.preco = preco;
+		this.qtdInicial = qtdInicial;
+		this.devolucao = devolucao;
+		this.qtdAtual=qtdInicial;
+	}
+	
+	@Override
+	public String toString() {
+		return "Medicamentos [cod=" + cod + ", preco=" + preco + ", qtdInicial=" + qtdInicial + ", qtdAtual=" + qtdAtual
+				+ ", devolucao=" + devolucao + "]";
+	}
+
+	public int getCod() {
+		return cod;
+	}
+	public void setCod(int cod) {
+		this.cod = cod;
+	}
+	public double getPreco() {
+		return preco;
+	}
+	public void setPreco(double preco) {
+		this.preco = preco;
+	}
+	public int getQtdInicial() {
+		return qtdInicial;
+	}
+	public void setQtdInicial(int qtdInicial) {
+		this.qtdInicial = qtdInicial;
+	}
+	public boolean isDevolucao() {
+		return devolucao;
+	}
+	public void setDevolucao(boolean devolucao) {
+		this.devolucao = devolucao;
+	}
+	public int getQtdAtual() {
+		return qtdAtual;
+	}
+	public void menosQtdAtual(int qtd) {
+		qtdAtual +=qtd;
+	}
+	public abstract boolean setQtdAtual(int QtdAtual);
+	
+	
+}
