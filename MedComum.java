@@ -1,4 +1,4 @@
-package farmacia;
+package Farmacia;
 
 public class MedComum extends Medicamentos {
 
