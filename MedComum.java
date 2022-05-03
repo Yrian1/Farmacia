@@ -12,11 +12,13 @@ public class MedComum extends Medicamentos {
 		boolean val;
 		if(getPreco()<2.50) {
 			qtd*=2;
+			System.out.println("Produto em promocao, paga 1 leve 2");
 			val=true;
 		}
 		else {
 			val=false;
 		}
+		System.out.prinln("voce comprou" + " " qtd + " unidades");
 		menosQtdAtual(qtd);
 		
 		return val;
