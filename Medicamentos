@@ -1,4 +1,4 @@
-package farmacia;
+package Farmacia;
 
 public abstract class Medicamentos {
 	private int cod;
@@ -6,6 +6,7 @@ public abstract class Medicamentos {
 	private int qtdInicial;
 	private int qtdAtual;
 	private boolean devolucao;
+
 	public Medicamentos(int cod, double preco, int qtdInicial, boolean devolucao) {
 		super();
 		this.cod = cod;
@@ -17,8 +18,8 @@ public abstract class Medicamentos {
 	
 	@Override
 	public String toString() {
-		return "Medicamentos [cod=" + cod + ", preco=" + preco + ", qtdInicial=" + qtdInicial + ", qtdAtual=" + qtdAtual
-				+ ", devolucao=" + devolucao + "]";
+		return "Medicamentos [\nnumeraçao do medicamento=" + cod + ", \npreco=" + preco + ",\nquantidade inicial=" + qtdInicial + ",\n total desse medicamento=" + qtdAtual
+				+ "\n, devolucao=" + devolucao + "\n]";
 	}
 
 	public int getCod() {
@@ -49,7 +50,8 @@ public abstract class Medicamentos {
 		return qtdAtual;
 	}
 	public void menosQtdAtual(int qtd) {
-		qtdAtual +=qtd;
+		if(qtd<0) {
+		qtdAtual +=qtd;}
 	}
 	public abstract boolean setQtdAtual(int QtdAtual);
 	
