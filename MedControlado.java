@@ -1,7 +1,7 @@
-package farmacia;
+package Farmacia;
 
 public class MedControlado extends Medicamentos{
-	public MedControlado(int cod, double preco, int qtd) {
+	public MedControlado(int cod, double preco,int qtd ) {
 		super(cod, preco, qtd, true);
 	}
 	
@@ -13,8 +13,14 @@ public class MedControlado extends Medicamentos{
 		menosQtdAtual(qtd);
 		return true;
 	}
+	public void devolver(int qtd) {
+		 menosQtdAtual(qtd);
+		 System.out.println("vc devolveu  " + qtd + "  remedios controlados");
 
 	
+
+
+	}
 
 
 	
