@@ -50,7 +50,7 @@ public abstract class Medicamentos {
 		return qtdAtual;
 	}
 	public void menosQtdAtual(int qtd) {
-		if(qtd<0) {
+		if(qtd>0 || this.devolucao==true) {
 		qtdAtual +=qtd;}
 	}
 	public abstract boolean setQtdAtual(int QtdAtual);
