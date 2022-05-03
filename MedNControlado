@@ -1,4 +1,4 @@
-package farmacia;
+package Farmacia;
 
 public class MedNControlado extends Medicamentos {
 
@@ -9,10 +9,9 @@ public class MedNControlado extends Medicamentos {
 
 	@Override
 	public boolean setQtdAtual(int qtd) {
-		// TODO Auto-generated method stub
-		menosQtdAtual(qtd);
+		
+		//if(qtd<0) {
+		menosQtdAtual(qtd);//}
 		return false;
 	}
-	
-
 }
