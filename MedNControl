@@ -1,0 +1,18 @@
+package farmacia;
+
+public class MedNControlado extends Medicamentos {
+
+	public MedNControlado(int cod, double preco, int qtd) {
+		super(cod, preco, qtd, false);
+		// TODO Auto-generated constructor stub
+	}
+
+	@Override
+	public boolean setQtdAtual(int qtd) {
+		// TODO Auto-generated method stub
+		menosQtdAtual(qtd);
+		return false;
+	}
+	
+
+}
