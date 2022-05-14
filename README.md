@@ -2,7 +2,7 @@
 
 > <h5>Exercicio de modelagem em Java, aplicando conceitos de abstracao, heranca, polimorfismo e encapsulamento.</h5>
 > 
->>Descricao:
+>Descricao:
 >
 >>Construa um sistema orientado a objetos, que atenda ao cadastramento e vendas de 
 >>produtos de uma Farmácia. Nesta farmácia teremos no máximo o cadastramento de 100 
