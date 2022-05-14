@@ -1,6 +1,6 @@
 # Farmacia
 
- Exercicio de modelagem em Java, aplicando conceitos de abstracao, heranca, polimorfismo e encapsulamento.
+ **Exercicio de modelagem em Java, aplicando conceitos de abstracao, heranca, polimorfismo e encapsulamento.**
  
 >Descricao:
 >
