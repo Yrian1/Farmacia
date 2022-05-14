@@ -1,7 +1,7 @@
 # Farmacia
 
-<h5>Exercicio de modelagem em Java, aplicando conceitos de abstracao, heranca, polimorfismo e encapsulamento.</h5>
-Descricao:
+> <h5>Exercicio de modelagem em Java, aplicando conceitos de abstracao, heranca, polimorfismo e encapsulamento.</h5>
+<p>Descricao:
   Construa um sistema orientado a objetos, que atenda ao cadastramento e vendas de 
 produtos de uma Farmácia. Nesta farmácia teremos no máximo o cadastramento de 100 
 medicamentos diferentes, divididos em controlados, não-controlados e comuns. Para 
@@ -15,3 +15,4 @@ farmácia está em promoção, na compra de um produto comum, com preço abaixo 
 do tipo controlado. Tenha cuidado de vender apenas produtos existentes no estoque. 
 Implemente os conceitos de herança, polimorfismo, classe abstrata e redefinição de 
 métodos, mostrando o que significam e onde eles foram implementados no seu código.
+</p>
